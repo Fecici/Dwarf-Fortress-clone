@@ -1,0 +1,21 @@
+RES = WWIDTH, WHEIGHT = 1500, 900
+
+TS = 100  # tilesize
+
+FPS = 144
+
+ROWS, COLS = WHEIGHT // TS, WWIDTH // TS
+MAPSIZE_X = 60
+MAPSIZE_Y = 50
+
+# colours
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+GRAY = (125, 125, 125)
+
+# sprite speeds
+PLAYER_SPEED = 3
+NPC_SPEED_DEFAULT = 2.5

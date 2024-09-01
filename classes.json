@@ -1,0 +1,9 @@
+// going to add a lot more here.
+// these should include stat buffs/debuffs,
+// special abilities, spells, certain knowledge of things, etc
+// try and make as similar to as possible as races.json
+
+{
+    "warlock": {},
+    "fighter": {}
+}

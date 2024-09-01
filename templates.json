@@ -1,0 +1,345 @@
+
+
+{
+"human": {
+
+    "main_stats": {
+        "health": 100,
+        "hit_die": 8,
+
+        "attack": 12,
+        "defence": 6,
+        "natural_ac": 12,
+        "spell_dc": 8,
+        "speed": 3,
+
+        "charisma": {
+            "saving_throw": 0,
+            "deception": 1,
+            "intimidation": 0,
+            "persuasion": 1,
+            "performance": 1
+        },
+
+        "wisdom": {
+            "saving_throw": 0,
+            "animal_handling": 2,
+            "insight": 1,
+            "perception": 0,
+            "survival": 2,
+            "medicine": 2
+        },
+
+        "strength": {
+            "saving_throw": 0,
+            "athletics": 2
+        },
+
+        "agility": {
+            "saving_throw": 2,
+            "acrobatics": 1,
+            "sleight_of_hand": 0,
+            "stealth": 0
+        },
+
+        "constitution": {
+            "saving_throw": 2
+        },
+
+        "intelligence": {
+            "saving_throw": 0,
+            "arcana": 0,
+            "investigation": 0,
+            "nature": 1,
+            "history": 2,
+            "religion": 2
+        }
+    },
+
+    "body": {
+        "body_parts": {
+            "arms": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": "left"
+                        },
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": "right"
+                        }
+                    ],
+            "legs": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": "left"
+                        },
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": "right"
+                        }
+                    ],
+
+            "eys": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["blue", "black", "brown", "green", "yellow"],
+                            "side": "left"
+                        },
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["blue", "black", "brown", "green", "yellow"],
+                            "side": "right"
+                        }
+                    ],
+
+            "ears": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": "left"
+                        },
+
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": "right"
+                        }
+                    ],
+
+            "nose": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": null
+                        }
+                    ],
+
+            "mouth": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": null
+                        }
+                    ],
+
+            "tail": [
+                        {
+                            "exists": false,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": null
+                        }
+                    ],
+
+            "head": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": null
+                        }
+                    ],
+
+
+            "peepee": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": null
+                        }
+                    ],
+
+            "poopoo": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["white", "black", "brown", "tan", "pale"],
+                            "side": null
+                        }
+                    ],
+
+
+            "organs": {
+                "heart": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["flesh"],
+                            "side": null
+                        }
+                        ],
+                "liver":[
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["flesh"],
+                            "side": null
+                        }
+                        ],
+                "spleen": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["flesh"],
+                            "side": null
+                        }
+                        ],
+                "kidney": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["flesh"],
+                            "side": "left"
+                        },
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": ["flesh"],
+                            "side": "right"
+                        }
+                        ],
+                "brain": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": "flesh",
+                            "side": null
+                        }
+                        ],
+                "stomach": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": "flesh",
+                            "side": null
+                        }
+                        ],
+                "blood": [
+                        {
+                            "exists": true,
+                            "condition": 100,
+                            "colour": "red",
+                            "side": null
+                        }
+                        ]
+            }
+
+        },
+
+        "hair": {
+            "type": ["curly", "wavy", "straight", "puffy", "afro"],
+            "colour": ["black", "brown", "blonde", "white", "gray", "red"],
+            "length": ["short", "long"],
+            "thickness": ["thin", "thick"],
+            "locations": ["head"],
+            "fur": false
+        },
+        
+        "height": 180,
+        "weight": 180,
+        "skin_colours": ["white", "black", "brown", "tan", "pale"],
+        "scent": 0
+
+    },
+
+    "abilities": {
+        "languages": ["common"],
+        "natural_abilities": [
+            {}
+        ],
+
+        "natural_resistances": {
+                "disease": 3,
+                "fire": 0,
+                "water": 5,
+                "cold": 0,
+                "poison": 0
+            },
+
+        "senses": {
+            "smell": 11,
+            "sight": 12,
+            "hearing": 10,
+            "taste": 10,
+            "touch": 10,
+            "gut_feeling": 14
+        },
+
+        "common_knowledge_types": {
+            "smithing": 0,
+            "fishing": 2,
+            "hunting": 2,
+            "big_swords": 1,
+            "small_swords": 1,
+            "axes": 1,
+            "maces": 1,
+            "archery": 1,
+            "building": 3,
+            "mining": 2,
+            "government": 4,
+            "social": 4,
+            "drinking": 0,
+            "farming": 2,
+            "crafting": 2,
+            "arts": 1,
+            "trading": 2
+        }
+    },
+
+    "inventory": {
+        "weapons": ["short_sword", "daggar", "bow"],
+        "money": 50,
+        "general": ["pen", "paper", "lute"],
+        "armour": {
+            "helmet": {
+                "condition": 100,
+                "value": 10,
+                "ac_mod": 1,
+                "description": "An old, worn, metal helmet"
+            },
+            "chestplate": {
+                "condition": 100,
+                "value": 10,
+                "ac_mod": 0.5,
+                "description": "An old, worn leather tunic"
+            },
+            "leggings": {
+                "condition": 100,
+                "value": 10,
+                "ac_mod": 0.3,
+                "description": "A pair of old, worn leather pants"
+            },
+            "boots": {
+                "condition": 100,
+                "value": 10,
+                "ac_mod": 0.3,
+                "description": "A pair of old, worn leather boots"
+            }
+        }
+    },
+
+    "lore": {
+        "connections": ["humans"],
+        "prejudices": ["orcs", "dragonborns", "goblins"],
+        "diet": ["omnivore"],
+        "motives": ["money", "power", "fame", "happiness"],
+        "alignment": ["chaotic good", "chaotic evil", "chaotic neutral", "lawful good", "lawful evil", "lawful neutral"],
+        "flaws": ["impatient", "boastful", "greedy"]
+    }
+}
+}
